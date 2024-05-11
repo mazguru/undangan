@@ -368,12 +368,6 @@ footer {
     left: 0px;
 }
 
-ol, ul {
-    list-style: inside !important;
-    margin: 0;
-    padding: 0;
-}
-
 .btn_kado:active {
 border-style: outset;
 outline: none;
