@@ -57,7 +57,7 @@ export const util = (() => {
     };
 
     const guest = () => {
-        const name = (new URLSearchParams(window.location.search)).get('to');
+        const name = (new URLSearchParams(window.location.search)).get('kpd');
         const address = (new URLSearchParams(window.location.search)).get('di');
         const guest = document.getElementById('guest-name');
 
